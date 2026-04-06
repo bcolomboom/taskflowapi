@@ -19,3 +19,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+jwt:
+  secret: "default_fallback_secret_key_at_least_32_chars"
+  expiration: 86400000
